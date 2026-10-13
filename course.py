@@ -5,7 +5,7 @@ from itertools import count
 import os.path as osp
 import re
 
-WAITING_SECS = 15 # s
+WAITING_SECS = 60 # s
 STATE_FILE = "state.json"
 
 def millisecond_countdown(total_seconds: float, update_interval: float = 0.02):
